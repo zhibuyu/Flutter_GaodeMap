@@ -7,6 +7,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_amap/flutter_amap.dart';
+import 'package:gaode_map/CustomWidget.dart';
 
 void main(){
   FlutterAmap.setApiKey("9a7ceaf825d15a598d7dacac7141670c");
@@ -35,7 +36,10 @@ class _MyAppState extends State<MyApp> {
           title: new Text('Plugin example app'),
         ),
         body: new Center(
-            child: new InkWell(child: new Text("Show Map"),onTap: this.show)
+          child: new GestureDetector(
+          onTap: this.show,
+            child: new CustomButton("Show Map"),
+          ),
         ),
       ),
     );
