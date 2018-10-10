@@ -1,2 +1,8 @@
-# FlutterGaodeMap
-Flutter使用高德地图高德地图3d flutter组件展示地图;同时支持Android和ios
+# gaode_map
+
+使用高德地图
+
+## Getting Started
+
+For help getting started with Flutter, view our online
+[documentation](https://flutter.io/).
